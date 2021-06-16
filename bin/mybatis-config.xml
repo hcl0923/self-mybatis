@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<datasource>
+		<property name="driver" value="com.mysql.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql://localhost:3306/db_mybatis"></property>
+		<property name="user" value="root"></property>
+		<property name="password" value="232328"></property>
+	</datasource>
+	<!-- 映射文件 -->
+	<mappers>
+		<mapper resource="com/yc/bean/UserTypeMapper.xml">
+		</mapper>
+	</mappers>
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper>
+	<select id="findAll" resultType="com.yc.bean.UserType">
+		select * from tb_usertype
+	</select>
+</mapper>
